@@ -87,7 +87,7 @@ with st.sidebar:
             """,
             unsafe_allow_html=True
         )
-        st.success("https://d1f3b9c121b4f331ee.gradio.live")
+        st.success("https://0a81ca1fc8822fceea.gradio.live")
     
     if api_key:
         genai.configure(api_key=api_key)
@@ -450,4 +450,5 @@ with col2:
 
 # Footer
 st.markdown("---")
+
 st.markdown("💡 **Tips:** Use the quick action buttons for instant insights, or ask specific questions in the chat for personalized advice!")
